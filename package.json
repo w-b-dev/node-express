@@ -4,7 +4,8 @@
   "description": "pluralsight-node-rest-api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,7 @@
     "eslint": "^7.4.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^6.11.0",
+    "nodemon": "^2.0.4",
     "prettier": "^2.0.5"
   }
 }
